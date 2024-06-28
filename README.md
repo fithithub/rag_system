@@ -6,7 +6,9 @@ Visit https://learn.deeplearning.ai/courses/langchain-chat-with-your-data.
 
 As a brief definition for those who do not know RAG (Retrieval Augmented Generation) yet, this concept refers to providing additional information from documents to a large language model (LLM) for improving its responses and even using real time data instead of up to their cutoff knowledge date. 
 
-RAG works by dividing the documents into smaller chunks, which are embedded and uploaded into a vector database. From there, every query from the user is compared with the chunks with similarity techniques which can be further enhanced depending on the situation. Ideally, the retrieved chunks provided as additional context improve the LLM outputs. 
+RAG works by dividing the documents into smaller chunks, which are embedded and uploaded into a vector database. From there, every query from the user is compared with the chunks with similarity techniques which can be further enhanced depending on the situation. Ideally, the retrieved chunks provided as additional context improve the LLM outputs. The image above represent the flow of a basic RAG system. 
+
+![flowchart](flowchart/rag.png)
 
 This notebook starts with experiments on RAG. At the end of the notebook there is the possibility of having a conversation with a chatbot powered with documents that allows users to see in depth the chunks retrieved as well as its metadata.
 
