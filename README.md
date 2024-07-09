@@ -25,7 +25,7 @@ This repository consists of the following:
 ### **Usage**:  
  - Install the Python packages and libraries from the *requirements.txt* or *environment.yml* file in the *requirements* folder
  - A *.env* file must exist at the root of the directory and it must have the appropriate values (OPENAI_API_KEY="sk-XXXX...") for the correct functioning of the code.
- - Then run chunk by chunk the notebook to see the results, at least up to the creation of the vector DB. Then you may explore the endless possibilities of RAG or go directly to the chatbot section if you wish to try it.
+ - Run chunk by chunk the notebook to see the results of the experimentation. In case you want to load other documents, use the *load_url*, *load_pdf* and *load_txt* for their respective format. Then add the new loaded documents into the *docs* list variable and continue with the experimentation. After adding the loaded documents in the *docs* variable, you may jump directly to the chatbot if you prefer. 
 
 #### **Note**:
  - **The OpenAI API is used, which requires and OpenAI account and calling it has associated costs.**
